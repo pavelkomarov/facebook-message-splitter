@@ -14,6 +14,7 @@ So I spent an evening picking apart various smaller `message.html` files to unde
 
 1. Create an archive of your Facebook messages from the website.
 2. Download it, and put `split.py` in the subfolder of your choice next to your large `message.html`.
-3. `python split.py`
+3. Run `python split.py` in a terminal.
+4. The original `message.html` is left untouched. `style.css` (so the style can be referenced rather than copied) and a set of `YEAR M_Month.html` (so files can be sorted by name) are generated.
 
 This script's function is dependent on the specific structure of `message.html`, so I expect next time Facebook updates their output format, my script will break. As of October 2018 it works. I haven't found an elegant way around this problem, because parsing `xml` necessarily involves a lot of structure-dependent navigation, removing, and adding. If it is breaking for you, and I haven't updated the script in too long, you can examine it to see what it's doing and modify as necessary. I tried to comment well enough that this shouldn't be too difficult. If you're still confused, open an issue. If you're successful, send me a pull request.
