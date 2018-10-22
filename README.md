@@ -2,7 +2,7 @@
 
 For years I've wanted a way to download conversations I've had on Facebook, because scrolling up to read what was said years ago is needlessly time consuming, memory-hogging, rate-limited, fragile, and ridiculous. A couple years ago I found out it's possible to dump all your Facebook data to an archive and did so. But it took a while, because Facebook had to go find all my stuff across their many servers, and the result was a jumbled mess of all messages to all recipients in one gigantic, ugly, nonstandard `html` page, without accompanying media.
 
-Recently, to be in compliance with new EU privacy laws, Facebook has revamped this process, and I'm happy to say it's much better. It still takes a nontrivial period to create an archive, but it's shorter, and the result is a set of stylish htmls (one per conversation) that look great in a web browser and include all the media.
+Recently, to be in compliance with new EU privacy laws, Facebook has revamped this process, and I'm happy to say it's much better. It still takes a nontrivial period to create an archive, but it's shorter, and the result is a set of stylish `html`s (one per conversation) that look great in a web browser and include all the media.
 
 ## Why you might still need this script
 
